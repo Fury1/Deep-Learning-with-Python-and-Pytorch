@@ -25,7 +25,7 @@ Basic usage: `python train.py data_directory`
 * Predict flower name from an image with predict.py along with the probability of that name. That is, you'll pass in a single image /path/to/image and return the flower name and class probability.
 * Help: `python predict.py -h`
 
-Basic usage: python predict.py /path/to/image checkpoint
+Basic usage: `python predict.py /path/to/image checkpoint`
 #### Options:
 * Return top K most likely classes: `python predict.py input checkpoint --top_k 3`
 * Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`
